@@ -1,0 +1,27 @@
+.layoutHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: 'var(--indigo-300)';
+
+  margin-block: 2rem;
+}
+
+.layoutHero h1 {
+  color: var(--indigo-500);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.heroLayoutEffect {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.layoutEffectModal span {
+  color: var(--indigo-800);
+
+  font-size: '1.75rem';
+  font-weight: 600;
+}

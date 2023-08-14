@@ -1,0 +1,31 @@
+.inputField {
+  width: 15rem;
+  padding: 0.5rem;
+  padding-left: 1.25rem;
+  outline: none;
+  border-radius: 5rem;
+  border: 2px solid transparent;
+  color: var(--zinc-100);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+
+  margin-block: 0.5rem;
+
+  font-size: 1.75rem;
+  font-weight: 300;
+
+  transition: all 0.3s ease-in;
+}
+
+.inputField:focus-visible {
+  border: 2px solid var(--violet-700);
+  width: 25rem;
+}
+
+.inputLabel {
+  font-size: 1.75rem;
+  font-weight: 300;
+  text-transform: capitalize;
+
+  color: var(--violet-700);
+}

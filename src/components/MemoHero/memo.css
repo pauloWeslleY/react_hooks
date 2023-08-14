@@ -1,0 +1,13 @@
+.memoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memoWrapper p {
+  color: var(--zinc-100);
+  font-size: 1.53rem;
+  font-weight: 400;
+
+  text-align: center;
+}

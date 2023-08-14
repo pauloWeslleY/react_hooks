@@ -1,0 +1,12 @@
+.nameWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.575rem;
+}
+
+.nameWrap span {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--indigo-300);
+}
