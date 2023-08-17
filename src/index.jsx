@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client'
 import { App } from './App'
 import { reportWebVitals } from './reportWebVitals'
 import { ThemeContextProvider } from './contexts/themeContext'
+import 'semantic-ui-css/semantic.min.css'
 import './styles/global.css'
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(
+const root = document.getElementById('root')
+ReactDOM.createRoot(root).render(
   <React.StrictMode>
     <ThemeContextProvider>
       <App />
