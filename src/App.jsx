@@ -1,9 +1,9 @@
-import { Comments } from './components/Comments'
+import { HemisphereHero } from './components/Hemisphere'
 
 export const App = () => {
   return (
     <main>
-      <Comments />
+      <HemisphereHero />
     </main>
   )
 }

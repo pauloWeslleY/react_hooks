@@ -1,0 +1,15 @@
+.Northern {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--indigo-700);
+}
+
+.Southern {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--violet-700);
+}
