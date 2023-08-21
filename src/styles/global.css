@@ -22,11 +22,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* background-color: var(--zinc-900);
-  color: var(--indigo-700); */
+  background-color: var(--zinc-900);
+  color: var(--indigo-700);
 }
 
-button {
+/* button {
   height: 2rem;
   width: 5rem;
   padding: 0.2rem;
@@ -46,7 +46,7 @@ button:hover {
   width: 7rem;
   transform: translateY(-2px);
   box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.6);
-}
+} */
 
 :root {
   --indigo-50: #eef2ff;

@@ -1,0 +1,23 @@
+.containerImage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding-bottom: 5rem;
+}
+
+.containerImage div {
+  flex: 1 1 25rem;
+  border: 2px solid var(--zinc-800);
+  padding: 0.25rem;
+}
+
+.containerImage div img {
+  height: 20.5rem;
+  width: 100%;
+}
+
+.titleHero h2 {
+  font-weight: 500;
+  font-size: 1.57rem;
+  margin-block: 2rem;
+}
